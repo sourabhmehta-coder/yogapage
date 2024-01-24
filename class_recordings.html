@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/image/image2.png">
+    <link rel="stylesheet" type="text/css" href="asset/css/class_recordings.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Class Recordings</title>
+    <script defer>
+        function updateCurrentDate() {
+            try {
+                var currentDate = new Date();
+                var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                var dateString = currentDate.toLocaleDateString('en-US', options);
+                var currentDateElement = document.getElementById('currentDate');
+                
+                if (currentDateElement) {
+                    currentDateElement.textContent = dateString;
+                    console.log('Date updated successfully:', dateString);
+                } else {
+                    console.error('Element with ID "currentDate" not found.');
+                }
+            } catch (error) {
+                console.error('Error updating date:', error);
+            }
+        }
+        window.onload = updateCurrentDate;
+        setInterval(updateCurrentDate, 24 * 60 * 60 * 1000);
+    </script>
+</head>
+
+<body>
+    
+    <div class="circle1"></div>
+    <div class="sidenav">
+        <div class="sidemenu-info">
+            <div class="sidemenu-picture">
+                <img src="asset/image/image3.png">
+            </div>
+        </div>
+        <ul class="side-link">
+            <li><a href="login.html">Sign in</a></li>
+            <hr>
+            <li><a href="registration.html">Register</a></li>
+        </ul>
+        <div class="sidemenu-bottom">
+            <a href="https://practicenow.us/?theme_id=" target="blank"><Strong>Powered by Practice Now!</Strong></a>
+        </div>
+    </div>
+
+
+    <div class="checkout-container">
+        <div class="menu-container">
+            <strong> BUY NEW PLAN</strong>
+            <span>
+                <a href="home.html" style="color: black;"><i class="fa fa-home" aria-hidden="true" style="font-size: x-large;"></i></a>
+                <a href="registration.html">New user? Register</a>
+                <span>
+        </div>
+
+        <nav class="plans-nav">
+            <ul id="services-menu">
+                <li>
+                    <a id="group_class" href="group_classes.html" class="pills">Group Classes</a>
+                </li>
+                <li>
+                    <a id="video_subscription" href="video_courses.html" class="pills">Video Courses</a>
+                </li>
+                <li>
+                    <a id="personal_class" href="personal_classes.html" class="pills">Personal Classes</a>
+                </li>
+                <li>
+                    <a id="group_class" href="class_recordings.html" class="pills active">Class Recordings</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+    </div>
+    <div class="card" id="card-border">
+        <div class="box">
+            <p><i class="fa fa-bullhorn"></i><b>Welcome!<br></p>
+            <p>
+            * Complete TIMETABLE: <a href="" style="color: rgb(242, 63, 63); text-decoration: none;">click here</a><br>
+            * MEDITATION App : <a href="" style="color: rgb(242, 63, 63); text-decoration: none;">click here</a><br>
+            * EVENT photos: <a href="" style="color: rgb(242, 63, 63); text-decoration: none;">click here</a><br>
+            * GIFTSHOP: <a href="" style="color: rgb(242, 63, 63); text-decoration: none;">click here</a><br></b></p>
+    </div>
+    </div>
+    <div class="card" id="card-border">
+        <div class="box">
+           <p><i class="fa fa-gift"></i>   <b>Free trial classes</b></p>
+           Are you a new student? Then you're in luck. Attend upto 2 trial group classes absolutely free.<br>
+           Review our schedule below, choose the class you want to try out and click "Join". You will need to register if you haven't already.
+        </div>
+    </div>
+
+    <div class="card" id="card-border">
+        <div class="badge"><span id="currentDate"></span></div>
+        <div class="box">
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Kajal S</b><br>
+                    4:30AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Kajal S</b><br>
+                    5:00AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Ananya</b><br>
+                    5:30AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Kajal S</b><br>
+                    5:00AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Neha M</b><br>
+                    6:00AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Anjali N</b><br>
+                    6:00AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Full Body Workout & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Ananya</b><br>
+                    6:30AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Neha M</b><br>
+                    7:00AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+            <div class="Join">
+                <button class="btn btn-primary" id="paybutton">Join</button>
+                <p><b>Kajal S</b><br>
+                    7:30AM · 55min <br>
+                    AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+            </div>
+            <hr>
+                <div class="Join">
+                    <button class="btn btn-primary" id="paybutton">Join</button>
+                    <p><b>Neha</b><br>
+                        8:00AM · 55min <br>
+                        AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+                </div>
+                <hr>
+                <div class="Join">
+                    <button class="btn btn-primary" id="paybutton">Join</button>
+                    <p><b>Trina</b><br>
+                        8:30AM · 55min <br>
+                        AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+                </div></var>
+                <hr>
+                <div class="Join">
+                    <button class="btn btn-primary" id="paybutton">Join</button>
+                    <p><b>Kajal S</b><br>
+                        9:00AM · 55min <br>
+                        AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+                </div>
+                <hr>
+                <div class="Join">
+                    <button class="btn btn-primary" id="paybutton">Join</button>
+                    <p><b>Kajal S</b><br>
+                        9:30AM · 55min <br>
+                        AlwaysLiveYoga I ADULTS I Medical Conditions & Weight Management I Beginner/Intermediate</p>
+                </div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

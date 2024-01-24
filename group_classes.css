@@ -1,0 +1,208 @@
+#paybutton {
+    background: #5edaf3;
+    border-color: #5edaf3;
+    padding: 0px 15px 0px 15px;
+    margin-top: 7px;
+    float: right;
+}
+#paybutton:hover {
+    background: #045e70;
+    border-color: #4cb5ca;
+    margin-top: 7px;
+    padding: 0px 15px 0px 15px;
+    float: right;
+    color: white;
+}
+
+#top-btn {
+    background: rgb(232, 130, 147);
+    border-color: #5edaf3;
+    display: flex;
+    font-size: large;
+    width: 160px;
+}
+
+.box {
+    font-size: small;
+}
+
+
+.badge {
+    background: #5edaf3;
+    font-weight: 700;
+}
+
+.badge {
+    position: absolute;
+    top: -16px;
+    left: 0;
+}
+
+.card {
+    font-size: larger;
+    position: relative;
+    padding: 34px;
+    margin: 20px 55px;
+    width: 70%;
+    float: right;
+}
+
+#card-border {
+    border-color: #5edaf3;
+}
+
+.circle1 {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+    float: left;
+    background-color: #5edaf3;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sidenav {
+    position: fixed;
+    width: 350px;
+    margin: 0;
+    height: 100%;
+    background-color: #4cb2c62f;
+}
+
+.sidemenu-info {
+    padding: 40px 0 20px;
+}
+
+.sidemenu-picture {
+    height: 115px;
+    width: 115px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.side-link {
+    margin: 50px 80px 480px 40px;
+}
+
+.side-link li a {
+    text-decoration: none;
+    color: #8e8b8b;
+}
+
+.sidemenu-bottom a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    background-color: #5edaf3;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    margin-top: -71px;
+}
+
+#top-button {
+    float: right;
+}
+
+.menu-container span {
+    float: right;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.checkout-container {
+    float: right;
+    width: 70%;
+    margin: 10px 55px;
+}
+
+.menu-container {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.menu-container a {
+    text-decoration: none;
+}
+
+.plans-nav {
+    position: relative;
+}
+
+.plans-nav ul {
+    display: flex;
+    overflow: scroll;
+}
+
+.plans-nav ul::-webkit-scrollbar {
+    width: 0;
+}
+
+.plans-nav li a {
+    width: 155px;
+}
+
+.pills {
+    display: inline-flex;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #3A3A3A;
+    background-color: #fff;
+    border: solid 2px #F94892;
+}
+
+.pills.active {
+    color: #fff;
+    background-color: #F94892;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+@media (max-width: 1372px) {
+    .sidenav {
+        position: fixed;
+        width: 300px;
+        margin: 0;
+        height: 100%;
+        background-color: #4cb2c62f;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sidenav {
+        position: fixed;
+        width: 270px;
+        margin: 0;
+        height: 100%;
+        background-color: #4cb2c62f;
+    }
+}
+
+@media (max-width: 1092px) {
+    .sidenav {
+        display: none;
+    }
+
+    .card {
+        font-size: larger;
+        padding: 34px;
+        margin: 20px;
+        width: 90%;
+    }
+
+    .checkout-container {
+        float: right;
+        width: 90%;
+        margin: 10px 20px;
+    }
+}

@@ -1,0 +1,119 @@
+form{
+    height: 520px;
+    width: 45%;
+    width: 650px;
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    /* backdrop-filter: blur(10px); */
+    
+    padding: 50px 35px;
+    background-color: #F8E8EE;
+    position: absolute;
+    border: 2px solid #FDCEDF;
+    box-shadow: 0 0 40px #F2BED1;
+    }
+    
+    body{
+        background-color: #FFECEF;
+    }
+    h1{
+        text-align: center;
+        color: #c80757;
+    }
+    .country,.state,.first_name,.last_name,.dob,.email,.password,.confirm_password,.rd1,.rd2,.i_agree{
+        color: rgb(233, 16, 106) ;
+        font-size: larger;
+    }
+    
+    button{
+        margin-top: 50px;
+        width: 120px;
+        background-color:#F94892;
+        color: whitesmoke;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color:#f6247c;
+    }
+    .reset{
+        float: left;
+        margin-left: 25%;
+        border-radius: 5%;
+    }
+    .submit{
+        float: right;
+        margin-right: 25%;
+        border-radius: 5%;
+    }
+    input,.rg,.ru{
+      background-color:#FDCEDF;
+      padding: 5px; 
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 170px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+    }
+    
+    ::placeholder{
+        color:black;
+    }
+    .k,.ru,.rg{
+        box-shadow: 2px 5px 10px 5px #f783ae inset; 
+    }
+    input:hover,.rg:hover,.ru:hover{
+        background-color:#f9b6cf;
+    }
+    .i{
+        margin: 4.8%;
+    }
+    
+    .rd1,.rd2{
+        margin-left: -75px;
+        margin-right: -45px;
+    }
+    .rd11,.rd22{
+        margin-left: -20px;
+    }
+    .i_agree{
+        margin-right: -60px;
+    }
+    .first_name{
+        margin-right: 10px;
+    }
+    .last_name{
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+    .dob{
+        margin-right: 55px;
+    }
+    .email{
+        margin-left: 26px;
+        margin-right: 60px;
+    }
+    .rg{
+        margin-left:5.5%;
+    }
+    .state{
+        margin-left: 24px;
+    }
+    .ru{
+        margin-left: 11.6%;
+    }
+    .confirm_password{
+        margin-right: 30px;
+    }
+    .password{
+        margin-right: 24px;
+    }

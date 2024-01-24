@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="icon" href="asset/image/image2.png">
+    <link rel="stylesheet" type="text/css" href="asset/css/login.css">
+    <script>
+    function check_login(event)
+        {
+            event.preventDefault()
+            var username=document.getElementById("username").value;
+            var password=document.getElementById("password").value;
+        
+            if(username == "Prerna" && password == "12345")
+        
+              {
+                alert("Login Successful");
+                window.location.href ="#"
+              }
+        
+              else
+              { 
+                alert("invalid username or password"); 
+              }
+        }
+        </script>
+
+    <style media="screen">
+    </style>
+</head>
+<body>
+    <form id="loginForm" onsubmit="check_login(event)">
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text"  placeholder="Email or Phone" id="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" required>
+
+        <button type="submit" value="login">Log In</button>
+        <div class="Register" style="text-align: right;">
+            <a href="registration.html">Register</a>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/image/image2.png">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/registration.css">
+    <script>
+        function clear(){
+    document.getElementById("my_registration").reset();}
+    
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <div>
+        <form id="my_registration">
+            <h1>Register Here</h1>
+            <div class="i">
+                <label for="first_name" class="first_name">First Name</label>
+                <input  class='k'type="text" placeholder="First Name" id="first_name" required>
+                <label for="last_name" class="last_name">Last Name</label>
+                <input  class='k'type="text" placeholder="Last Name" id="last_name" required>
+            </div>
+            <div class="i">
+                <label for="dob" class="dob">DOB</label>
+                <input  class='k'type="date" placeholder="DOB" id="dob" required>
+                <label for="email" class="email">Email</label>
+                <input  class='k'type="email" placeholder="Email" id="email" required>
+            </div>
+            <div class="i">
+                <label class="country">
+                    Country
+                    <select class="rg">
+                        <option>Select country</option>
+                        <option>India</option>
+                        <option>other</option>
+                    </select>
+                </label>
+                <label class="state">
+                    State
+                    <select class="ru">
+                        <option selected>Select State</option>
+                        <option>Jharkhand</option>
+                        <option>other</option>
+                    </select>
+                </label>
+            </div>
+            <div class="i">
+                <label for="password" class="password">Password</label>
+                <input class='k' type="password" placeholder="Password" id="password" required>
+            </div>
+            <div class="i">
+                <label for="confirm_password" class="confirm_password">Confirm Password</label>
+                <input class='k' type="confirm_password" placeholder="Confirm Password" id="confirm_password" required class="r1">
+                <input type="radio" name="radiogroup1" id="rd1" checked class="rd11">
+                <label for="rd1" class="rd1">Male</label>
+                <input type="radio" name="radiogroup1" id="rd2" class="rd22">
+                <label for="rd2" class="rd2">Female</label>
+            </div>
+            <div class="i">
+                <label for="i_agree" class="i_agree">I agree with all terms and conditions!</label>
+                <input type="checkbox" id="check" required class="i1">
+                <a style="color:rgb(233, 16, 106); font-size: larger;" href="login.html">Please Click to Login</a>
+                <button type="reset" onclick="clear()" class="reset">Clear Form</button>
+                <button type="submit" value="Register" class="submit">Register</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

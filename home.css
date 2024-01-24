@@ -1,0 +1,172 @@
+
+#logo img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+#navbar{
+    top: 0px;
+    background-color:rgb(2, 10, 42);
+}
+
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    object-fit: cover;
+    display: inline;
+}
+
+#text-overlay {
+    display: inline;
+    color: white;
+    text-align: left;
+    text-decoration: solid;
+    display: inline;
+    background: transparent;
+    object-fit: cover;
+    margin-top: -50%;
+    margin-left: 10%;
+
+}
+
+#button1{
+    margin-top: 200px;
+    width: 200px;
+    font-size: 1.0em;
+    padding: 10px;
+    
+}
+#button1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#text-overlay1 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: purple;
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+#text-overlay1 h1 {
+    font-size: 2.0em;
+}
+
+#text-overlay1 p {
+    font-size: 1.0em;
+}
+
+
+#text-overlay2 {
+    text-decoration: solid;
+    display: flex;
+    text-align: justify;
+    padding-right: 2%;
+
+}
+
+#text-overlay2 li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 85, 91);
+
+}
+.box{
+    display: flex;
+}
+
+#text-overlay3 {
+    text-decoration: solid;
+    text-align: justify;
+    padding-right: 2%;
+}
+#text-overlay3 img {
+   width: 100%;
+   border-radius: 55px;
+}
+#text-overlay4 {
+    text-decoration: solid;
+    text-align: justify;
+    color: purple;
+    padding: 2%;
+
+
+}
+@media (max-width: 900px) {
+    #text-overlay3{
+        display: none;
+    }
+    #button1{
+        margin-top: 40px;
+        width: 100px;
+        font-size: 0.6em;
+        padding: 10px;
+        
+    }
+}
+@media (max-width: 599px) {
+    #text-overlay3{
+        display: none;
+    }
+    #button1{
+        margin-top: -5px;
+        width: 100px;
+        font-size: 0.6em;
+        padding: 10px;
+        
+    }
+}
+@media (max-width: 440px) {
+    #text-overlay3{
+        display: none;
+    }
+    #text-overlay h1{
+        font-size: 1.5em;
+    }
+    #text-overlay p{
+        font-size: 1.0em;
+    }
+    #button1{
+        margin-top: -5px;
+        width: 100px;
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 380px) {
+    #text-overlay3{
+        display: none;
+    }
+    #text-overlay h1{
+        font-size: 1.0em;
+        text-align: center;
+
+    }
+    #text-overlay p{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: -20px;
+    }
+    #button1{
+        margin-top: -5px;
+        width: 85px;
+        font-size: 0.5em;
+        padding: 8px;
+        margin-top: -10px;
+
+    }
+}
+@media(max-width: 278px){
+    #text-overlay{
+        display: none;
+    }
+}
